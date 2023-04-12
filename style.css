@@ -1,0 +1,314 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --main-color:#576574;
+    --primary-color:#48dbfb;
+    --my-color:#f1f2f6;
+}
+h2{
+    font-size: 2.5rem;
+}
+header{
+    background-image: url(image/seth-schwiet-WB3ujiKLJwQ-unsplash\ \(1\).jpg);
+    background-size: 100%;
+    height: 90vh;
+    overflow: hidden;
+}
+nav{
+    padding-top: 15px;
+}
+.fluid{width: 80%; margin: 0 auto;}
+.flex{display: flex;}
+.text-center{text-align: center;}
+ul li{font-size: 1.1rem;}
+ul li:nth-child(1){
+    color: var(--primary-color);
+    transition: all .5s ease;
+}
+ul li:nth-child(1):hover{
+    color: var(--main-color);
+}
+ul li:hover{
+    color: var(--primary-color);
+    transition: all .5s ease;
+}
+li{
+    list-style: none;
+    padding: 0 1rem;
+}
+.space-between{
+    justify-content: space-between;
+}
+h1{ font-size: 2.5rem; margin-bottom: 0; }
+.logo{align-self: center;}
+.logo i{font-size: 2rem; color:var(--primary-color) }
+.head-bottom{
+    flex-direction: column;
+    align-items: flex-end;
+    width: 80%;
+    height: 100%;
+    
+}
+.head-bottom .item-prnt{
+    align-items: center;
+    height: 70%; 
+}
+.item-prnt .item-cild{
+    text-align: start;
+}
+/* .head-bottom{
+    position: absolute;
+    top:30%;
+    right: 190px;
+} */
+.head-bottom p{
+    font-size: 1.3rem;
+    color:#576574;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.head-bottom a{
+    padding:12px 24px;
+    background-color: var(--primary-color);
+    color:white;
+    text-decoration: none;
+    border: 2px solid var(--primary-color);
+    transition: all .5s ease-in-out;
+}
+.head-bottom a:hover{
+    background-color: rgba(236, 240, 241,0.5) ;
+    color:var(--primary-color);
+    border: 2px solid var(--primary-color);
+}
+/* end */
+.about-us{
+    width: 50%;
+    margin: 60px auto;
+}
+.about-us p{
+    color:var(--main-color);
+}
+/* end */
+section.professional{
+    background-size: 100%;
+    background-image: url(image/leone-venter-VieM9BdZKFo-unsplash.jpg);
+    height: 80vh;
+}
+.pro-skill{
+    padding-top: 12%;
+    height: 100%;
+}
+.ui-line{
+    width: 45%;
+    height: 4px;
+    background-color:#c8d6e5 ;
+}
+.ui-pro{
+    height: 3px;
+    background-color: var(--primary-color);
+}
+.ui-proo{width: 75%;}
+.ui-prot{width: 90%;}
+.ui-proh{width: 65%;}
+/* end */
+.count-area{
+    justify-content: space-around;
+    background-color: var(--primary-color);
+    padding: 50px 100px;
+    color:var(--my-color);
+}
+.count-area h4{margin-bottom: 0; font-weight: 550;}
+.count-area p{margin-top: 0;}
+.i-font{font-size: 3rem;
+    align-self: center;
+}
+.count-area i{
+    padding-right: 20px;
+}
+/* end */
+.gallery{
+    flex-wrap: wrap;
+}
+.container{
+    position: relative;
+    width: 25%;
+    height: 40vh;
+}
+.image{
+    
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+.container:hover .overlay{
+    opacity: 0.7;
+}
+.text{
+    color:var(--my-color) ;
+    font-size: 3rem;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+/* end glry */
+.load{
+    padding: 15px;
+    margin: 0;
+    color: var(--main-color);
+    text-align: center;
+    background-color: #dfe4ea;
+}
+/* e  n  d */
+.work-pro{
+    text-align: center;
+    margin: 70px auto;
+}
+.work-pro p{
+    color: var(--main-color);
+    width: 50%;
+    margin: auto;
+}
+.work-pro .video img{
+    width: 100%;
+    height: 450px;
+}
+.video{
+    margin-top: 15px;
+    position: relative;
+}
+
+.circel i{
+    color: var(--primary-color);
+    background-color: var(--my-color);
+    border-radius: 100%;
+    padding: 0;
+    margin: 0;
+}
+.circel{
+    font-size: 4rem;
+    position: absolute;
+    text-align:center; 
+    top: 40%;
+    left: 50%;
+}
+/* e n d  */
+.cetagori{
+    background-color: #dfe4ea;
+}
+.cetadiv{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.cetadiv p{color: var(--main-color);}
+.cetadiv div i{
+    font-size: 2rem;
+}
+/* e  n  d */
+.cetadiv div{
+    width: 23%;
+    margin: 15px 0px;
+    text-align: center;
+}
+/* e  n  d */
+.qouts{background-color: var(--primary-color);}
+.quts-intro p{font-size: 1.5rem; word-spacing :2px; }
+.qouts div{
+    width: 54%;
+    text-align: center;
+    margin:0 auto;
+    padding: 120px 0;
+    color:var(--my-color);
+}
+/* e  n  d */
+.title{
+    
+}
+.title p{
+    color: var(--main-color);
+}
+.fvlogo{
+    width: 100%;
+    height: 180px;
+    justify-content: space-around;
+}
+.fvlogo img{width: 15%; opacity: 0.5;}
+/* e  n  d */
+.nepro{
+    background-color: #dfe4ea;
+    padding: 45px 0;
+}
+.nepro .title{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+.form-area{
+    width: 45%;
+    margin: 0 auto;
+}
+.fone{
+    gap:18px;
+}
+form input{
+    width: 97.5%;
+    border: none;
+    padding: 15px 10px;
+    margin-bottom: 15px;
+}
+textarea{
+    padding: 10px;
+    border:none;
+    width: 97.5%;
+}
+.button{
+    width: 12%;
+    margin: 0 auto;
+}
+.button a{
+    padding:12px 24px;
+    background-color: var(--primary-color);
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    margin: 15px auto;
+    display: inline-block;
+    justify-content: center;
+    align-self: center; 
+    border: 2px solid var(--primary-color);
+    transition: all .5s ease-in-out;
+}
+.button a:hover{
+    background-color: rgba(236, 240, 241,0.5) ;
+    color:var(--primary-color);
+    border: 2px solid var(--primary-color);
+}
+/* e  n  d */
+table {
+    padding: 50px 0;
+}
+footer h4{
+    margin: 0;
+}
+footer{
+    color:var(--main-color);
+    background-color: black;
+}
+
+
